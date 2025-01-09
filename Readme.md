@@ -3,7 +3,7 @@
 ## Overview
 This project leverages cutting-edge machine learning models and computer vision techniques to detect deepfake media, including images, videos, and audio. It aims to identify manipulated content and ensure the authenticity of digital data.
 
-![Main Page](images/Main.png)
+![Main Page](Main.png)
 
 ## Features
 - **Image and Video Deepfake Detection**: Detects tampered visual content with high accuracy.  
@@ -52,14 +52,14 @@ Open index.html in your browser for an interactive UI.
 
 Screenshots
 Main Page
-![Main Page](images/imagecopy.png)
+![Main Page](imagecopy.png)
 
 Audio Deepfake Detection
-![Audio](images/Audio.png)
+![Audio](Audio.png)
 
 
 Video and Image Detection
-![Video and Image](images/ImageVideo.png)
+![Video and Image](ImageVideo.png)
 
 
 Repository Structure
