@@ -52,7 +52,7 @@ Open index.html in your browser for an interactive UI.
 
 Screenshots
 Main Page
-![Features](image copy.png)
+![Features](Imagecopy.png)
 
 Audio Deepfake Detection
 ![Audio](Audio.png)
