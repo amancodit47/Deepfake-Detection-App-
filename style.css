@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.logo {
+    display: flex;
+    align-items: center; /* Align images and text vertically */
+    justify-content: space-between; /* Distribute space between elements */
+}
+
+.logo img {
+    margin-right: 10px; /* Adds spacing between the two images */
+}
+
+.text {
+    margin-left: auto;
+    margin-right: 30px;
+    margin-bottom:20px; /* Pushes the text to the far right */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #bdb29b;
+}
+
+/* Header */
+header {
+    background: #2d4531;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    animation: slideInDown 1s ease-in-out;
+}
+
+.logo {
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    font-family:cursive;
+    padding-left: 20px;
+    padding-top:25px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+}
+
+.nav-links li {
+    margin: 0px 10px 0px 20px;
+    padding-top: 0cap;
+   
+    
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+    transform: scale(1.1); /* Added zoom on hover */
+}
+
+/* Hero Section */
+.hero {
+    height: 65vh;
+    background: url('1my.png') no-repeat center center/cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    animation: fadeIn 2s ease-in-out;
+    background-position: center 10px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    animation: slideInLeft 1s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero-content h1:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #00aaff;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(2, 2, 2);
+    color: white;
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+html {
+    scroll-behavior: smooth; /* This enables smooth scrolling */
+}
+
+/* Features Section */
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    gap: 20px;
+    padding: 40px;
+    background: #ebe9e9;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+.feature h2 {
+    font-size: 24px;
+    border-radius: 7px;
+    padding: 11px;
+    margin-bottom: 10px;
+    animation: zoomIn 1s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(140, 161, 92);
+}
+#features .feature a {
+    color: white; /* Change the text color to white */
+    text-decoration: none; /* Optional: Remove underline from links */
+}
+
+#features .feature a:hover {
+    transform: scale(1.1);
+    color: lightgray; /* Optional: Change color on hover */
+}
+
+
+.feature h2:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.feature p {
+    font-size: 16px;
+    animation: zoomIn 1.5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature p:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+/* Supported Formats */
+.format:hover {
+    transform: scale(1.1); /* Grow the format boxes on hover */
+}
+.formats {
+    text-align: center;
+    padding: 40px;
+    animation: slideInRight 1.5s ease-in-out;
+    background-color: rgb(140, 161, 92);
+    color: white;
+    transform: scale(1.1);
+}
+
+
+.format-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(140, 161, 92);
+    color: white;
+    transform: scale(1.1);
+}
+
+.format {
+    background: #ebf3f3;
+    color: rgb(5, 3, 3);
+    padding: 7px;
+    margin-top:15px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    border-radius: 10px;
+    animation: bounce 2s ease-in-out;
+}
+
+/* FAQ */
+.faq {
+    padding: 40px;
+    padding-bottom: 20px;;
+    background: #eae0e0;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #212423;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    transition: background 0.3s ease-in-out;
+}
+
+.accordion-button:hover {
+    background-color: #005580;
+}
+
+
+.accordion-content {
+    padding: 10px;
+    background-color: white;
+    display: none;
+}
+
+/* Footer */
+footer {
+    
+    background: #2d4531;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 20px; /* Added spacing between text and the button */
+}
+
+footer .btn {
+    margin-top: 20px;
+    padding: 15px 30px;
+    transition: transform 0.9s ease-in-out;
+    background: #787a7a;
+}
+
+footer .btn:hover {
+    transform: scale(2); /* Zoom effect on hover */
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
