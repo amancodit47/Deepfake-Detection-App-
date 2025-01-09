@@ -62,25 +62,6 @@ Video and Image Detection
 ![Video and Image](ImageVideo.png)
 
 
-Repository Structure
-css
-Copy code
-.
-├── images/
-│   ├── Audio.png
-│   ├── Main.png
-│   ├── imagecopy.png
-│   ├── ImageVideo.png
-│   ├── CyberPeace-Logo-Ver...
-├── audio.py
-├── Image_Video.py
-├── index.html
-├── script.js
-├── style.css
-├── Readme.md
-├── TEAM_MAVERICKS.pptx
-├── territorial_army_logo...
-
 Contributors
 Aman Kumar
 
