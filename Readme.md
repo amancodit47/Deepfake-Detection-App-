@@ -1,4 +1,4 @@
-# Deepfake Detection & Authenticity Verification Using Agentic AI
+# VeriSight – Cross-Platform Deepfake & AI Content Verification Engine
 
 ## Overview
 This project leverages cutting-edge machine learning models and computer vision techniques to detect deepfake media, including images, videos, and audio. It aims to identify manipulated content and ensure the authenticity of digital data.
@@ -61,6 +61,7 @@ Video and Image Detection
 
 Contributors
 Aman Kumar
+
 
 
 
