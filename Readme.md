@@ -1,9 +1,8 @@
-# Deepfake Detection Project
+# Deepfake Detection & Authenticity Verification Using Agentic AI
 
 ## Overview
 This project leverages cutting-edge machine learning models and computer vision techniques to detect deepfake media, including images, videos, and audio. It aims to identify manipulated content and ensure the authenticity of digital data.
 
-![Main Page](Main.png)
 
 ## Features
 - **Image and Video Deepfake Detection**: Detects tampered visual content with high accuracy.  
@@ -64,4 +63,5 @@ Video and Image Detection
 
 Contributors
 Aman Kumar
+
 
