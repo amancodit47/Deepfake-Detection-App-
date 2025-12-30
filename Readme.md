@@ -50,8 +50,6 @@ Web Interface
 Open index.html in your browser for an interactive UI.
 
 Screenshots
-Main Page
-![Features](Imagecopy.png)
 
 Audio Deepfake Detection
 ![Audio](Audio.png)
@@ -63,5 +61,6 @@ Video and Image Detection
 
 Contributors
 Aman Kumar
+
 
 
